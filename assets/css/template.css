@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 64px;
+  width: 96px;
 }
 
 .sound-toggle {
