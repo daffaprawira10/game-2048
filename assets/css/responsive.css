@@ -1,3 +1,9 @@
+@media only screen and (max-width: 900px) {
+  .about-game__content {
+    width: 60%;
+  }
+}
+
 @media only screen and (max-width: 830px) {
   .container {
     flex-direction: column;
@@ -5,9 +11,20 @@
   }
 }
 
+@media only screen and (max-width: 700px) {
+  .about-game__content {
+    width: 80%;
+    padding: 2rem;
+  }
+}
+
 @media only screen and (max-width: 530px) {
   .popup-menu__content h2 {
     font-size: 20px;
+  }
+  .about-game__content {
+    line-height: 30px;
+    font-size: 12px;
   }
 }
 
@@ -76,6 +93,11 @@
   .game-explanation .important {
     font-size: 12px;
     color: #eee0c9;
+  }
+  .about-game__content {
+    padding: 1.5rem;
+    line-height: 24px;
+    font-size: 11px;
   }
 }
 
