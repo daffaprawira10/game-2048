@@ -240,6 +240,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  function showAboutGame() {
+    aboutGame.style.display = 'block';
+  }
+
+  function hideAboutGame() {
+    aboutGame.style.display = 'none';
+  }
+  
   document.getElementById('new-game').addEventListener('click', restartGame);
   document.getElementById('play-again').addEventListener('click', restartGame);
   document.getElementById('restart-game').addEventListener('click', restartGame);
