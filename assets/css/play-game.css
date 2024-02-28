@@ -94,31 +94,6 @@ body {
   color: #eee0c9;
 }
 
-kbd {
-  border: 1px solid #9fa6ad;
-  box-shadow: 0 1px 1px rgba(12, 13, 14, 0.15), inset 0 1px 0 0 #fff;
-  background-color: #e3e6e8;
-  border-radius: 4px;
-  color: #232629;
-  display: inline-block;
-  line-height: 1.5;
-  margin: 0 0.1em;
-  overflow-wrap: break-word;
-  padding: 0.1em 0.5em;
-  text-shadow: 0 1px 0 #fff;
-  cursor: pointer;
-  font-family: inherit;
-}
-
-kbd:hover,
-kbd:hover * {
-  background: #ccc;
-}
-kbd:active,
-kbd:active * {
-  box-shadow: 1px 1px 0 #ddd inset;
-}
-
 .game-over {
   position: absolute;
   font-weight: 500;
