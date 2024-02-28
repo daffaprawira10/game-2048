@@ -251,12 +251,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('new-game').addEventListener('click', restartGame);
   document.getElementById('play-again').addEventListener('click', restartGame);
-  document
-    .getElementById('restart-game')
-    .addEventListener('click', restartGame);
-    document
-    .getElementById('game-info__icon')
-    .addEventListener('click', showAboutGame);
+  document.getElementById('restart-game').addEventListener('click', restartGame);
+  document.getElementById('game-info__icon').addEventListener('click', showAboutGame);
+  
   // Event listener untuk ikon tutup
   closeAboutGame.addEventListener('click', hideAboutGame);
 
