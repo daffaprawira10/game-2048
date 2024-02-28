@@ -52,7 +52,7 @@ nav {
   color: #fff;
 }
 
-.popup-menu, .about-game {
+.about-game {
   display: none;
   position: fixed;
   top: 0;
@@ -61,24 +61,6 @@ nav {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px 10px 0 0;
-}
-
-.popup-menu__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-  gap: 1rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.9);
-  border-radius: 10px;
-  color: #eee0c9;
-  padding: 2rem 3rem;
-  line-height: 32px;
 }
 
 .about-game__content {
