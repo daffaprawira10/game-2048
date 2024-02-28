@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Panggil fungsi inisialisasi
   let board = [];
   let currentScore = 0;
   const grid = document.querySelector('.grid');
