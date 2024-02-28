@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const winMessageElem = document.getElementById('win-message');
   const gameOverElem = document.getElementById('game-over-message');
 
+  var closeAboutGame = document.getElementById('closeAboutGame');
+  var aboutGame = document.getElementById('aboutGame');
+
   // Function to update the score
   function updateScore(value) {
     currentScore += value;
@@ -238,9 +241,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('new-game').addEventListener('click', restartGame);
   document.getElementById('play-again').addEventListener('click', restartGame);
-  document
-    .getElementById('restart-game')
-    .addEventListener('click', restartGame);
+  document.getElementById('restart-game').addEventListener('click', restartGame);
+  document.getElementById('game-info__icon').addEventListener('click', showAboutGame);
+  
+  // Event listener untuk ikon tutup
+  closeAboutGame.addEventListener('click', hideAboutGame);
 
   grid.addEventListener('touchstart', handleTouchStart);
   grid.addEventListener('touchmove', handleTouchMove);
